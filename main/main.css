@@ -1,0 +1,349 @@
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-v28-latin-regular.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/rubik-v28-latin-500.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/rubik-v28-latin-700.woff2') format('woff2');
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before *::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", 'Arial', 'sans-serif';
+    font-size: 18px;
+    line-height: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.container {
+    width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 50px;
+    background-color: #F6F6F9;
+    ;
+}
+
+.header-first {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 65px;
+    align-items: center;
+}
+
+.first-box {
+    align-items: center;
+}
+
+.header-str {
+    color: #285193;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 20px;
+}
+
+.header-span {
+    color: #7A7A7A;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.net-put {
+    width: 145px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    padding-left: 10px;
+    margin-right: 15px;
+}
+
+.search {
+    width: 38px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    margin-right: 60px;
+}
+
+.net-sel {
+    width: 65px;
+    height: 40px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    appearance: none;
+    padding-left: 8px;
+    font-size: 16px;
+    margin-right: 33px;
+}
+
+.first-link {
+    width: 146px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    color: #FFF;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.first-net {
+    margin: 0;
+}
+
+.tags {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin: 0;
+    gap: 35px;
+    background-color: #fff;
+    padding: 25px 24px;
+    margin-bottom: 18px;
+}
+
+.tags-link {
+    color: #515151;
+    font-family: 'Rubik';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.tags-link:hover {
+    color: #295091;
+    font-family: 'Rubik';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header-add {
+    width: 1240px;
+    height: 99px;
+    margin-bottom: 23px;
+}
+
+.hero .flex {
+    display: flex;
+}
+
+.name-put {
+    width: 600px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #285193;
+    opacity: 0.3;
+    background: #F1F1F1;
+    padding-left: 20px;
+    color: #888;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.name-are {
+    width: 600px;
+    height: 307px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #285193;
+    opacity: 0.3;
+    background: #F1F1F1;
+    padding-left: 20px;
+    color: #888;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 15px;
+}
+
+.xon {
+    width: 221px;
+    height: 50px;
+    margin-top: 20px;
+    display: block;
+}
+
+.xonn {
+    width: 221px;
+    height: 50px;
+}
+
+.name-span {
+    padding-left: 30px;
+}
+
+.name-ad {
+    border-radius: 5px;
+    border: 2px solid rgba(40, 81, 147, 0.54);
+    background: #295093;
+    color: #FFF;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+    padding: 15px 73px;
+    margin-bottom: 40px;
+}
+
+.name-ad:hover {
+    background-color: #2957a6;
+    transition: all 0.2s ease-in-out;
+}
+
+.name-ad:active {
+    background: #295093;
+}
+
+.twit {
+    width: 510px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #BCC3CD;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 10px 14px 0px rgba(57, 57, 57, 0.25);
+}
+
+.twit-logo {
+    padding-top: 23px;
+    padding-left: 189px;
+}
+
+.twit-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.twit-text {
+    margin-left: 20px;
+}
+
+.twit-link {
+    text-decoration: none;
+    color: #888;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 18px;
+}
+
+.twit-photos {
+    margin-top: 13px;
+    margin-left: 60px;
+}
+
+.twit-text {
+    color: #888;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.photo-pic {
+    padding-left: 20px;
+}
+
+.first-linkk {
+    border-radius: 5px;
+    background: #295091;
+    color: #FFF;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.twit-pic {
+    margin-top: 10px;
+}
